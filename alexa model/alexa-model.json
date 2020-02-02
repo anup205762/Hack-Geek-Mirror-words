@@ -1,0 +1,96 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "mirror words",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PlayGameIntent",
+                    "slots": [
+                        {
+                            "name": "value",
+                            "type": "option"
+                        }
+                    ],
+                    "samples": [
+                        "play",
+                        "start",
+                        "play the game",
+                        "{value} might be the answer",
+                        "i think {value}",
+                        "answer is {value}",
+                        "{value} is the correct answer",
+                        "{value} is the answer",
+                        "its {value}",
+                        "{value}"
+                    ]
+                },
+                {
+                    "name": "LeaderBoardIntent",
+                    "slots": [],
+                    "samples": [
+                        "show me leader board",
+                        "show me leaderboard",
+                        "leader borad",
+                        "leaderborad"
+                    ]
+                },
+                {
+                    "name": "RulesIntent",
+                    "slots": [],
+                    "samples": [
+                        "what are rules",
+                        "say rules",
+                        "i want rules",
+                        "i want to know rules",
+                        "rules"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "option",
+                    "values": [
+                        {
+                            "id": "3",
+                            "name": {
+                                "value": "option 3"
+                            }
+                        },
+                        {
+                            "id": "2",
+                            "name": {
+                                "value": "option 2"
+                            }
+                        },
+                        {
+                            "id": "1",
+                            "name": {
+                                "value": "option 1"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
